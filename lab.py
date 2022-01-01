@@ -1,7 +1,6 @@
-import numpy as np
-from numpy.core.defchararray import split
-
-
-nm = input().split()
-numpy_array = np.array(split(nm))
-print(numpy_array)
+def gridChallenge(grid):
+    print(grid)
+    grid = [list(row) for row in grid]
+    print(grid)
+grid = [["abc","abe","efg"],["sfg","abe","efg"]]
+gridChallenge(grid)
